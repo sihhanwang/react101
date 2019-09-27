@@ -3,7 +3,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.join(__dirname, "/dist"),
-    filename: "_bundle.js"
+    filename: "_bundle.[hash].js"
   },
   module: {
     rules: [
