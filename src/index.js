@@ -1,2 +1,6 @@
 import {log} from './utils'
-log('hello world')
+const obj = {
+  text: 'hello es6語法有變嗎'
+}
+const {text} = obj
+log(text)
