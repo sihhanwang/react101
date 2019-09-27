@@ -1,6 +1,5 @@
-import {log} from './utils'
-const obj = {
-  text: 'hello es6語法有變嗎'
-}
-const {text} = obj
-log(text)
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+
+ReactDOM.render(<App />,  document.getElementById('root'))
